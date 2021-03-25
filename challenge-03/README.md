@@ -200,5 +200,5 @@ pessoa.apresentacao = function() {
 
 
 // Agora, apresente-se ;)
-//"Olá, eu sou o Thiago Garcia, tenho 21 anos, 1.73, meu peso é 72 e, só hoje, eu já caminhei 880 metros!"
+//"Olá, eu sou o Thiago Garcia, tenho 24 anos, 1.73, meu peso é 72 e, só hoje, eu já caminhei 880 metros!"
 ```
