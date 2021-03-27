@@ -1,4 +1,4 @@
-function(){
+(function () {
   // Envolva todo o código desse arquivo em uma IIFE (incluindo esse comentário).
 
   /*
@@ -66,7 +66,7 @@ function(){
     if (i > 10) {
       break;
     }
-    numbers[i] = i;
+    numbers.push(i);
   }
 
   console.log(`De 0 a 10: ${numbers}`);
@@ -78,13 +78,10 @@ function(){
   Mostrar no console os números do array.
   */
   numbers = [];
-  let num = 0;
   for (i = 0; i <= 20; i++) {
-    if (num % 2 === 0 && num <= 20) {
-      numbers[i] = num;
+    if (i % 2 === 0) {
+      numbers.push(i);
     }
-    num += 2;
   }
   console.log(`Pares de 0 a 20: ${numbers}`);
-
-}
+})();
