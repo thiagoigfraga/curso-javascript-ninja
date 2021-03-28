@@ -11,7 +11,7 @@
   Mostre esse array no console.
   */
   let numberObjects = [];
-  for (i = 0; i <= 10; i++) {
+  for (i = 1; i <= 10; i++) {
     numberObjects.push({ number: i });
   }
 
@@ -47,8 +47,7 @@
   Mostre o resultado no console.
   */
   let operation = justMod2Or3.reduce((count, current) => {
-    count = count * current;
-    return count + 1;
+    return (count + 1) * current;
   }, 0);
 
   console.log("\nOperation:", operation);
@@ -59,11 +58,10 @@
   console.
   */
   let operation2 = justMod2Or3.reduceRight((count, current) => {
-    count = count * current;
-    return count + 1;
+    return (count + 1) * current;
   }, 0);
+
   console.log("\nOperation 2:", operation2);
-  // ?
 
   /*
   Crie um array chamado `name`. Cada elemento desse array deve ser uma sílaba
@@ -91,14 +89,12 @@
   });
 
   console.log("\nInversed Name:", nomeInvertido);
-  // ?
 
   /*
   Mostre no console o array `numberObjects`.
   */
 
   console.log("\nNumber objects", numberObjects);
-  // ?
 
   /*
   Verifique se existem em algum índice de numberObjects um objeto ìgual a
@@ -134,7 +130,6 @@
     "\nE buscando a partir do último índice, o { number: 2 } existe?",
     verifLast
   );
-  // ?
 
   /*
   Verifique se `justMod2Or3` é um array. Se for, mostre-o no console, no
